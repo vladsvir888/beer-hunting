@@ -1,0 +1,124 @@
+<mjml>
+  <mj-head>
+      <mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700" />
+      <mj-style>
+        @media all and (min-width: 480px) {
+          .align div {
+            text-align: left !important;
+          }
+        }
+
+        @media all and (max-width: 479px) {
+          .img-person {
+            padding-bottom: 20px !important; 
+          }
+
+          .logo-img {
+            padding-bottom: 10px !important;
+            height: auto !important;
+          }
+
+          .title div {
+            font-size: 33px !important;
+          }
+        }
+      </mj-style>
+  </mj-head>
+  <mj-body width="600px" background-color="#fff">
+      <mj-section padding="32px">
+        <mj-column>
+          <mj-image css-class="logo-img" padding="0" padding-bottom="30px" width="45px" height="50px" src="https://bitrix.imediasolutions.ru/beer-hunt/logo.png" alt="logo" />
+          <mj-text css-class="title" padding="0" padding-bottom="32px" align="center" color="#000000" font-size="36px" font-weight="700" line-height="44px" font-style="normal" font-family="Inter, Arial">
+              We serve beer.
+          </mj-text>
+          <mj-image css-class="main-img" padding="0" padding-bottom="30px" src="https://bitrix.imediasolutions.ru/beer-hunt/photo.jpg" alt="photo-1" />
+          <mj-text padding="0" padding-bottom="32px" color="#000000" align="center" font-weight="400" font-style="normal" font-size="14px" line-height="17px" font-family="Inter, Arial">
+            Good Beer Hunting has two separate teams—a strategic design studio based in Chicago, Illinois, and an editorial team with contributors all over the globe. The goal that unites these distinct businesses is our desire to serve the ecosystem of producers, drinkers, and the always-evolving value chain that connects them.
+          </mj-text>
+          <mj-button padding="0" font-size="14px" font-weight="400" font-style="normal" line-height="17px" color="#ad9b6a" background-color="transparent" border="2px solid #ad9b6a" border-radius="20px" text-transform="uppercase" href="#">
+            Mission statement
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="32px">
+        <mj-column>
+          <mj-image css-class="img-person" padding="0" width="125px" height="125px" src="https://bitrix.imediasolutions.ru/beer-hunt/person1.png" alt="person" />
+        </mj-column>
+        <mj-column>
+          <mj-text align="center" css-class="align" padding="0" padding-bottom="16px" font-weight="400" line-height="29px" font-size="20px" font-style="normal" color="#000000" font-family="Inter, Arial">
+            MICHAEL KISER
+          </mj-text>
+          <mj-text align="center" css-class="align" padding="0" padding-bottom="16px" font-weight="400px" font-style="normal" font-size="15px" color="#000000" font-family="Inter, Arial">
+            Founder, Creative Director
+          </mj-text>
+          <mj-text align="center" css-class="align" padding="0" text-decoration="underline" font-size="13px" font-style="normal" font-family="Inter, Arial">
+            <a style="color: #000000;" href="#" target="_blank">
+              See more from Michael
+            </a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0 32px 32px">
+        <mj-column>
+          <mj-image css-class="img-person" padding="0" width="125px" height="125px" src="https://bitrix.imediasolutions.ru/beer-hunt/person2.jpg" alt="person" />
+        </mj-column>
+        <mj-column>
+          <mj-text align="center" css-class="align" padding="0" padding-bottom="16px" font-weight="400" line-height="29px" font-size="20px" font-style="normal" color="#000000" font-family="Inter, Arial">
+            CLAIRE BULLEN
+          </mj-text>
+          <mj-text align="center" css-class="align" padding="0" padding-bottom="16px" font-weight="400px" font-style="normal" font-size="15px" color="#000000" font-family="Inter, Arial">
+            Editor in Chief
+          </mj-text>
+          <mj-text align="center" css-class="align" padding="0" text-decoration="underline" font-size="13px" font-style="normal" font-family="Inter, Arial">
+            <a style="color: #000000;" href="#" target="_blank">
+              See more from Claire
+            </a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0 32px 32px">
+        <mj-column>
+          <mj-image css-class="img-person" padding="0" width="125px" height="125px" src="https://bitrix.imediasolutions.ru/beer-hunt/person3.jpg" alt="person" />
+        </mj-column>
+        <mj-column>
+          <mj-text align="center" css-class="align" padding="0" padding-bottom="16px" font-weight="400" line-height="29px" font-size="20px" font-style="normal" color="#000000" font-family="Inter, Arial">
+            EVAN RAIL
+          </mj-text>
+          <mj-text align="center" css-class="align" padding="0" padding-bottom="16px" font-weight="400px" font-style="normal" font-size="15px" color="#000000" font-family="Inter, Arial">
+            International Editor
+          </mj-text>
+          <mj-text align="center" css-class="align" padding="0" text-decoration="underline" font-size="13px" font-style="normal" font-family="Inter, Arial">
+            <a style="color: #000000;" href="#" target="_blank">
+              See more from Evan
+            </a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="32px 32px 16px">
+        <mj-group width="118px">
+          <mj-column>
+            <mj-button padding="0" background-color="transparent" href="https://twitter.com">
+              <img src="https://bitrix.imediasolutions.ru/beer-hunt/twitter.png" alt="twitter" />
+            </mj-button>
+          </mj-column>
+          <mj-column>
+            <mj-button padding="0" background-color="transparent" href="https://instagram.com">
+              <img src="https://bitrix.imediasolutions.ru/beer-hunt/insta.png" alt="insta" />
+            </mj-button>
+          </mj-column>
+          <mj-column>
+            <mj-button padding="0" background-color="transparent" href="https://facebook.com">
+              <img src="https://bitrix.imediasolutions.ru/beer-hunt/fb.png" alt="fb" />
+            </mj-button>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-section padding="0 32px 32px">
+        <mj-column>
+          <mj-text padding="0" align="center" font-size="16px" line-height="21px" font-style="normal" font-family="Inter, Arial">
+            All content ©2020 Good Beer Hunting. A strategic venture of <a href="#" style="color: #ad9b6a; text-decoration: none;">Feel Goods Company</a>. "Good Beer Hunting®" is an international registered trademark of Good Beer Hunting LLC.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+  </mj-body>
+</mjml>
